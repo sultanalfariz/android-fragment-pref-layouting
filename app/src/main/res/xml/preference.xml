@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:id="@+id/darkModeSwitch"
+        android:defaultValue="true"
+        android:key="dark_mode_switch"
+        android:summary="@string/dark_mode_summary"
+        android:title="@string/dark_mode_title"/>
+    <EditTextPreference
+        android:defaultValue="0.1"
+        android:key="interval_time"
+        android:summary="Set interval splash screen"
+        android:title="Interval Time"/>
+</PreferenceScreen>
